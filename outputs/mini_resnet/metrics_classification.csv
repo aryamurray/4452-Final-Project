@@ -1,0 +1,1 @@
+epoch,train_loss,val_loss,val_acc,val_top5,val_top10,lr

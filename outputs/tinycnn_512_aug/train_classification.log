@@ -1,0 +1,228 @@
+2026-02-16 03:29:56,042 [INFO] Trainer: Trainer initialized in 'classification' mode
+2026-02-16 03:29:56,042 [INFO] Trainer: Device: cuda
+2026-02-16 03:29:56,043 [INFO] Trainer: Monitoring metric: val_acc
+2026-02-16 03:29:56,043 [INFO] Trainer: Starting training...
+2026-02-16 03:29:56,043 [INFO] Trainer: Epochs: 30
+2026-02-16 03:29:56,043 [INFO] Trainer: Batch size: 256
+2026-02-16 03:29:56,043 [INFO] Trainer: Learning rate: 0.001
+2026-02-16 03:29:56,044 [INFO] Trainer: Gradient accumulation steps: 2
+2026-02-16 03:29:56,044 [INFO] Trainer: 
+Epoch 1/30
+2026-02-16 03:40:57,954 [INFO] Trainer: Train Loss: 6.5651 | Val Loss: 4.8445 | Val Acc: 0.2793 | Top5: 0.5485 | Top10: 0.6625 | LR: 0.001000
+2026-02-16 03:43:43,204 [INFO] Trainer: Trainer initialized in 'classification' mode
+2026-02-16 03:43:43,204 [INFO] Trainer: Device: cuda
+2026-02-16 03:43:43,204 [INFO] Trainer: Monitoring metric: val_acc
+2026-02-16 03:43:43,205 [INFO] Trainer: Starting training...
+2026-02-16 03:43:43,205 [INFO] Trainer: Epochs: 30
+2026-02-16 03:43:43,205 [INFO] Trainer: Batch size: 256
+2026-02-16 03:43:43,205 [INFO] Trainer: Learning rate: 0.001
+2026-02-16 03:43:43,205 [INFO] Trainer: Gradient accumulation steps: 2
+2026-02-16 03:43:43,206 [INFO] Trainer: 
+Epoch 1/30
+2026-02-16 03:54:01,840 [INFO] Trainer: Train Loss: 6.5651 | Val Loss: 4.9763 | Val Acc: 0.2433 | Top5: 0.5028 | Top10: 0.6209 | LR: 0.001000
+2026-02-16 03:54:01,886 [INFO] Trainer: Saved best checkpoint with val_acc: 0.2433
+2026-02-16 03:54:01,886 [INFO] Trainer: 
+Epoch 2/30
+2026-02-16 04:03:52,493 [INFO] Trainer: Train Loss: 4.4414 | Val Loss: 3.5794 | Val Acc: 0.5692 | Top5: 0.8109 | Top10: 0.8716 | LR: 0.000997
+2026-02-16 04:03:52,533 [INFO] Trainer: Saved best checkpoint with val_acc: 0.5692
+2026-02-16 04:03:52,533 [INFO] Trainer: 
+Epoch 3/30
+2026-02-16 04:13:43,276 [INFO] Trainer: Train Loss: 3.7386 | Val Loss: 3.2054 | Val Acc: 0.6543 | Top5: 0.8591 | Top10: 0.9053 | LR: 0.000989
+2026-02-16 04:13:43,314 [INFO] Trainer: Saved best checkpoint with val_acc: 0.6543
+2026-02-16 04:13:43,314 [INFO] Trainer: 
+Epoch 4/30
+2026-02-16 04:23:34,339 [INFO] Trainer: Train Loss: 3.4454 | Val Loss: 2.9817 | Val Acc: 0.7027 | Top5: 0.8853 | Top10: 0.9232 | LR: 0.000976
+2026-02-16 04:23:34,379 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7027
+2026-02-16 04:23:34,379 [INFO] Trainer: 
+Epoch 5/30
+2026-02-16 04:33:25,283 [INFO] Trainer: Train Loss: 3.2859 | Val Loss: 2.8580 | Val Acc: 0.7284 | Top5: 0.8981 | Top10: 0.9321 | LR: 0.000957
+2026-02-16 04:33:25,321 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7284
+2026-02-16 04:33:25,322 [INFO] Trainer: 
+Epoch 6/30
+2026-02-16 04:43:15,940 [INFO] Trainer: Train Loss: 3.1853 | Val Loss: 2.7718 | Val Acc: 0.7441 | Top5: 0.9066 | Top10: 0.9380 | LR: 0.000933
+2026-02-16 04:43:15,980 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7441
+2026-02-16 04:43:15,980 [INFO] Trainer: 
+Epoch 7/30
+2026-02-16 04:53:06,503 [INFO] Trainer: Train Loss: 3.1147 | Val Loss: 2.7306 | Val Acc: 0.7526 | Top5: 0.9108 | Top10: 0.9407 | LR: 0.000905
+2026-02-16 04:53:06,542 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7526
+2026-02-16 04:53:06,542 [INFO] Trainer: 
+Epoch 8/30
+2026-02-16 05:02:56,371 [INFO] Trainer: Train Loss: 3.0602 | Val Loss: 2.6960 | Val Acc: 0.7591 | Top5: 0.9121 | Top10: 0.9415 | LR: 0.000872
+2026-02-16 05:02:56,412 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7591
+2026-02-16 05:02:56,412 [INFO] Trainer: 
+Epoch 9/30
+2026-02-16 05:12:46,419 [INFO] Trainer: Train Loss: 3.0192 | Val Loss: 2.6790 | Val Acc: 0.7647 | Top5: 0.9160 | Top10: 0.9448 | LR: 0.000835
+2026-02-16 05:12:46,457 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7647
+2026-02-16 05:12:46,457 [INFO] Trainer: 
+Epoch 10/30
+2026-02-16 05:22:37,426 [INFO] Trainer: Train Loss: 2.9874 | Val Loss: 2.6147 | Val Acc: 0.7778 | Top5: 0.9227 | Top10: 0.9491 | LR: 0.000794
+2026-02-16 05:22:37,467 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7778
+2026-02-16 05:22:37,467 [INFO] Trainer: 
+Epoch 11/30
+2026-02-16 05:32:28,309 [INFO] Trainer: Train Loss: 2.9578 | Val Loss: 2.6188 | Val Acc: 0.7809 | Top5: 0.9221 | Top10: 0.9489 | LR: 0.000750
+2026-02-16 05:32:28,347 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7809
+2026-02-16 05:32:28,347 [INFO] Trainer: 
+Epoch 12/30
+2026-02-16 05:42:20,015 [INFO] Trainer: Train Loss: 2.9328 | Val Loss: 2.5959 | Val Acc: 0.7832 | Top5: 0.9232 | Top10: 0.9497 | LR: 0.000704
+2026-02-16 05:42:20,053 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7832
+2026-02-16 05:42:20,053 [INFO] Trainer: 
+Epoch 13/30
+2026-02-16 05:52:13,346 [INFO] Trainer: Train Loss: 2.9126 | Val Loss: 2.6008 | Val Acc: 0.7841 | Top5: 0.9247 | Top10: 0.9505 | LR: 0.000655
+2026-02-16 05:52:13,384 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7841
+2026-02-16 05:52:13,385 [INFO] Trainer: 
+Epoch 14/30
+2026-02-16 06:02:04,508 [INFO] Trainer: Train Loss: 2.8905 | Val Loss: 2.5562 | Val Acc: 0.7918 | Top5: 0.9282 | Top10: 0.9532 | LR: 0.000604
+2026-02-16 06:02:04,546 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7918
+2026-02-16 06:02:04,547 [INFO] Trainer: 
+Epoch 15/30
+2026-02-16 06:11:55,376 [INFO] Trainer: Train Loss: 2.8720 | Val Loss: 2.5314 | Val Acc: 0.7997 | Top5: 0.9311 | Top10: 0.9550 | LR: 0.000553
+2026-02-16 06:11:55,413 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7997
+2026-02-16 06:11:55,413 [INFO] Trainer: 
+Epoch 16/30
+2026-02-16 06:21:44,538 [INFO] Trainer: Train Loss: 2.8533 | Val Loss: 2.5216 | Val Acc: 0.8015 | Top5: 0.9312 | Top10: 0.9547 | LR: 0.000501
+2026-02-16 06:21:44,579 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8015
+2026-02-16 06:21:44,579 [INFO] Trainer: 
+Epoch 17/30
+2026-02-16 06:31:36,112 [INFO] Trainer: Train Loss: 2.8365 | Val Loss: 2.5398 | Val Acc: 0.8014 | Top5: 0.9302 | Top10: 0.9545 | LR: 0.000448
+2026-02-16 06:31:36,115 [INFO] Trainer: 
+Epoch 18/30
+2026-02-16 06:41:26,117 [INFO] Trainer: Train Loss: 2.8193 | Val Loss: 2.4974 | Val Acc: 0.8097 | Top5: 0.9340 | Top10: 0.9574 | LR: 0.000397
+2026-02-16 06:41:26,155 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8097
+2026-02-16 06:41:26,155 [INFO] Trainer: 
+Epoch 19/30
+2026-02-16 06:51:16,975 [INFO] Trainer: Train Loss: 2.8034 | Val Loss: 2.4950 | Val Acc: 0.8117 | Top5: 0.9356 | Top10: 0.9581 | LR: 0.000346
+2026-02-16 06:51:17,015 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8117
+2026-02-16 06:51:17,015 [INFO] Trainer: 
+Epoch 20/30
+2026-02-16 07:01:07,460 [INFO] Trainer: Train Loss: 2.7891 | Val Loss: 2.4787 | Val Acc: 0.8142 | Top5: 0.9361 | Top10: 0.9581 | LR: 0.000297
+2026-02-16 07:01:07,503 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8142
+2026-02-16 07:01:07,503 [INFO] Trainer: 
+Epoch 21/30
+2026-02-16 07:10:57,528 [INFO] Trainer: Train Loss: 2.7733 | Val Loss: 2.4770 | Val Acc: 0.8169 | Top5: 0.9372 | Top10: 0.9590 | LR: 0.000251
+2026-02-16 07:10:57,566 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8169
+2026-02-16 07:10:57,566 [INFO] Trainer: 
+Epoch 22/30
+2026-02-16 07:20:48,613 [INFO] Trainer: Train Loss: 2.7601 | Val Loss: 2.4577 | Val Acc: 0.8195 | Top5: 0.9382 | Top10: 0.9595 | LR: 0.000207
+2026-02-16 07:20:48,651 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8195
+2026-02-16 07:20:48,651 [INFO] Trainer: 
+Epoch 23/30
+2026-02-16 07:30:38,118 [INFO] Trainer: Train Loss: 2.7478 | Val Loss: 2.4517 | Val Acc: 0.8216 | Top5: 0.9392 | Top10: 0.9600 | LR: 0.000166
+2026-02-16 07:30:38,156 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8216
+2026-02-16 07:30:38,156 [INFO] Trainer: 
+Epoch 24/30
+2026-02-16 07:40:29,171 [INFO] Trainer: Train Loss: 2.7350 | Val Loss: 2.4458 | Val Acc: 0.8243 | Top5: 0.9402 | Top10: 0.9606 | LR: 0.000129
+2026-02-16 07:40:29,212 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8243
+2026-02-16 07:40:29,212 [INFO] Trainer: 
+Epoch 25/30
+2026-02-16 07:50:19,946 [INFO] Trainer: Train Loss: 2.7253 | Val Loss: 2.4419 | Val Acc: 0.8248 | Top5: 0.9397 | Top10: 0.9606 | LR: 0.000096
+2026-02-16 07:50:19,984 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8248
+2026-02-16 07:50:19,984 [INFO] Trainer: 
+Epoch 26/30
+2026-02-16 08:00:09,909 [INFO] Trainer: Train Loss: 2.7155 | Val Loss: 2.4350 | Val Acc: 0.8275 | Top5: 0.9406 | Top10: 0.9610 | LR: 0.000068
+2026-02-16 08:00:09,947 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8275
+2026-02-16 08:00:09,947 [INFO] Trainer: 
+Epoch 27/30
+2026-02-16 08:09:58,631 [INFO] Trainer: Train Loss: 2.7069 | Val Loss: 2.4241 | Val Acc: 0.8285 | Top5: 0.9417 | Top10: 0.9621 | LR: 0.000044
+2026-02-16 08:09:58,671 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8285
+2026-02-16 08:09:58,671 [INFO] Trainer: 
+Epoch 28/30
+2026-02-16 08:19:48,374 [INFO] Trainer: Train Loss: 2.7023 | Val Loss: 2.4232 | Val Acc: 0.8291 | Top5: 0.9418 | Top10: 0.9615 | LR: 0.000025
+2026-02-16 08:19:48,414 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8291
+2026-02-16 08:19:48,415 [INFO] Trainer: 
+Epoch 29/30
+2026-02-16 08:29:37,939 [INFO] Trainer: Train Loss: 2.6985 | Val Loss: 2.4222 | Val Acc: 0.8298 | Top5: 0.9421 | Top10: 0.9617 | LR: 0.000012
+2026-02-16 08:29:37,978 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8298
+2026-02-16 08:29:37,979 [INFO] Trainer: 
+Epoch 30/30
+2026-02-16 08:39:28,532 [INFO] Trainer: Train Loss: 2.6951 | Val Loss: 2.4191 | Val Acc: 0.8305 | Top5: 0.9423 | Top10: 0.9619 | LR: 0.000004
+2026-02-16 08:39:28,571 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8305
+2026-02-16 08:39:28,571 [INFO] Trainer: Training completed!
+2026-02-16 08:39:28,571 [INFO] Trainer: Best val_acc: 0.8305
+2026-02-16 12:47:56,381 [INFO] Trainer: Resuming from checkpoint: outputs\tinycnn_512_aug\best_model_classification.pt
+2026-02-16 12:47:56,410 [INFO] Trainer: Resuming from epoch 31 with warm restart (LR=0.001)
+2026-02-16 12:47:56,414 [INFO] Trainer: Trainer initialized in 'classification' mode
+2026-02-16 12:47:56,415 [INFO] Trainer: Device: cuda
+2026-02-16 12:47:56,415 [INFO] Trainer: Monitoring metric: val_acc
+2026-02-16 12:47:56,415 [INFO] Trainer: Starting training...
+2026-02-16 12:47:56,415 [INFO] Trainer: Epochs: 20
+2026-02-16 12:47:56,415 [INFO] Trainer: Batch size: 256
+2026-02-16 12:47:56,416 [INFO] Trainer: Learning rate: 0.001
+2026-02-16 12:47:56,416 [INFO] Trainer: Gradient accumulation steps: 2
+2026-02-16 12:47:56,417 [INFO] Trainer: 
+Epoch 31/50
+2026-02-16 12:58:13,395 [INFO] Trainer: Train Loss: 2.9565 | Val Loss: 2.6120 | Val Acc: 0.7754 | Top5: 0.9221 | Top10: 0.9490 | LR: 0.001000
+2026-02-16 12:58:13,438 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7754
+2026-02-16 12:58:13,439 [INFO] Trainer: 
+Epoch 32/50
+2026-02-16 13:08:13,593 [INFO] Trainer: Train Loss: 2.9423 | Val Loss: 2.5923 | Val Acc: 0.7783 | Top5: 0.9229 | Top10: 0.9494 | LR: 0.000994
+2026-02-16 13:08:13,633 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7783
+2026-02-16 13:08:13,634 [INFO] Trainer: 
+Epoch 33/50
+2026-02-16 13:18:48,668 [INFO] Trainer: Train Loss: 2.9271 | Val Loss: 2.5892 | Val Acc: 0.7774 | Top5: 0.9227 | Top10: 0.9496 | LR: 0.000976
+2026-02-16 13:18:48,674 [INFO] Trainer: 
+Epoch 34/50
+2026-02-16 13:29:30,184 [INFO] Trainer: Train Loss: 2.9119 | Val Loss: 2.5780 | Val Acc: 0.7862 | Top5: 0.9265 | Top10: 0.9521 | LR: 0.000946
+2026-02-16 13:29:30,235 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7862
+2026-02-16 13:29:30,236 [INFO] Trainer: 
+Epoch 35/50
+2026-02-16 13:39:47,079 [INFO] Trainer: Train Loss: 2.8981 | Val Loss: 2.5675 | Val Acc: 0.7861 | Top5: 0.9263 | Top10: 0.9521 | LR: 0.000905
+2026-02-16 13:39:47,083 [INFO] Trainer: 
+Epoch 36/50
+2026-02-16 13:50:15,817 [INFO] Trainer: Train Loss: 2.8830 | Val Loss: 2.5624 | Val Acc: 0.7859 | Top5: 0.9262 | Top10: 0.9523 | LR: 0.000854
+2026-02-16 13:50:15,820 [INFO] Trainer: 
+Epoch 37/50
+2026-02-16 14:00:43,906 [INFO] Trainer: Train Loss: 2.8691 | Val Loss: 2.5487 | Val Acc: 0.7940 | Top5: 0.9286 | Top10: 0.9533 | LR: 0.000794
+2026-02-16 14:00:43,948 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7940
+2026-02-16 14:00:43,948 [INFO] Trainer: 
+Epoch 38/50
+2026-02-16 14:10:40,845 [INFO] Trainer: Train Loss: 2.8503 | Val Loss: 2.5076 | Val Acc: 0.7998 | Top5: 0.9312 | Top10: 0.9552 | LR: 0.000727
+2026-02-16 14:10:40,887 [INFO] Trainer: Saved best checkpoint with val_acc: 0.7998
+2026-02-16 14:10:40,887 [INFO] Trainer: 
+Epoch 39/50
+2026-02-16 14:20:38,325 [INFO] Trainer: Train Loss: 2.8328 | Val Loss: 2.5199 | Val Acc: 0.7980 | Top5: 0.9306 | Top10: 0.9548 | LR: 0.000655
+2026-02-16 14:20:38,329 [INFO] Trainer: 
+Epoch 40/50
+2026-02-16 14:30:36,763 [INFO] Trainer: Train Loss: 2.8147 | Val Loss: 2.4893 | Val Acc: 0.8032 | Top5: 0.9337 | Top10: 0.9563 | LR: 0.000579
+2026-02-16 14:30:36,806 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8032
+2026-02-16 14:30:36,807 [INFO] Trainer: 
+Epoch 41/50
+2026-02-16 14:40:35,184 [INFO] Trainer: Train Loss: 2.7956 | Val Loss: 2.4890 | Val Acc: 0.8085 | Top5: 0.9337 | Top10: 0.9568 | LR: 0.000501
+2026-02-16 14:40:35,224 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8085
+2026-02-16 14:40:35,224 [INFO] Trainer: 
+Epoch 42/50
+2026-02-16 14:50:34,164 [INFO] Trainer: Train Loss: 2.7757 | Val Loss: 2.4776 | Val Acc: 0.8100 | Top5: 0.9339 | Top10: 0.9573 | LR: 0.000422
+2026-02-16 14:50:34,205 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8100
+2026-02-16 14:50:34,205 [INFO] Trainer: 
+Epoch 43/50
+2026-02-16 15:00:33,812 [INFO] Trainer: Train Loss: 2.7583 | Val Loss: 2.4602 | Val Acc: 0.8167 | Top5: 0.9377 | Top10: 0.9595 | LR: 0.000346
+2026-02-16 15:00:33,849 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8167
+2026-02-16 15:00:33,850 [INFO] Trainer: 
+Epoch 44/50
+2026-02-16 15:10:31,165 [INFO] Trainer: Train Loss: 2.7379 | Val Loss: 2.4402 | Val Acc: 0.8211 | Top5: 0.9393 | Top10: 0.9605 | LR: 0.000274
+2026-02-16 15:10:31,205 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8211
+2026-02-16 15:10:31,205 [INFO] Trainer: 
+Epoch 45/50
+2026-02-16 15:20:28,189 [INFO] Trainer: Train Loss: 2.7188 | Val Loss: 2.4218 | Val Acc: 0.8237 | Top5: 0.9406 | Top10: 0.9612 | LR: 0.000207
+2026-02-16 15:20:28,230 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8237
+2026-02-16 15:20:28,230 [INFO] Trainer: 
+Epoch 46/50
+2026-02-16 15:30:26,171 [INFO] Trainer: Train Loss: 2.7021 | Val Loss: 2.4163 | Val Acc: 0.8273 | Top5: 0.9415 | Top10: 0.9617 | LR: 0.000147
+2026-02-16 15:30:26,211 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8273
+2026-02-16 15:30:26,211 [INFO] Trainer: 
+Epoch 47/50
+2026-02-16 15:40:23,959 [INFO] Trainer: Train Loss: 2.6884 | Val Loss: 2.4059 | Val Acc: 0.8296 | Top5: 0.9426 | Top10: 0.9622 | LR: 0.000096
+2026-02-16 15:40:23,997 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8296
+2026-02-16 15:40:23,998 [INFO] Trainer: 
+Epoch 48/50
+2026-02-16 15:50:22,553 [INFO] Trainer: Train Loss: 2.6758 | Val Loss: 2.3983 | Val Acc: 0.8325 | Top5: 0.9432 | Top10: 0.9627 | LR: 0.000055
+2026-02-16 15:50:22,601 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8325
+2026-02-16 15:50:22,601 [INFO] Trainer: 
+Epoch 49/50
+2026-02-16 16:00:20,325 [INFO] Trainer: Train Loss: 2.6677 | Val Loss: 2.3955 | Val Acc: 0.8328 | Top5: 0.9435 | Top10: 0.9629 | LR: 0.000025
+2026-02-16 16:00:20,366 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8328
+2026-02-16 16:00:20,366 [INFO] Trainer: 
+Epoch 50/50
+2026-02-16 16:10:19,648 [INFO] Trainer: Train Loss: 2.6634 | Val Loss: 2.3926 | Val Acc: 0.8338 | Top5: 0.9439 | Top10: 0.9633 | LR: 0.000007
+2026-02-16 16:10:19,691 [INFO] Trainer: Saved best checkpoint with val_acc: 0.8338
+2026-02-16 16:10:19,692 [INFO] Trainer: Training completed!
+2026-02-16 16:10:19,692 [INFO] Trainer: Best val_acc: 0.8338

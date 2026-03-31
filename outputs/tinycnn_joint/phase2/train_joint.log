@@ -1,0 +1,57 @@
+2026-02-18 01:28:22,486 [INFO] Trainer: Trainer initialized in 'joint' mode
+2026-02-18 01:28:22,486 [INFO] Trainer: Device: mps
+2026-02-18 01:28:22,486 [INFO] Trainer: Monitoring metric: val_acc
+2026-02-18 01:28:22,486 [INFO] Trainer: Starting training...
+2026-02-18 01:28:22,486 [INFO] Trainer: Epochs: 10
+2026-02-18 01:28:22,486 [INFO] Trainer: Batch size: 256
+2026-02-18 01:28:22,486 [INFO] Trainer: Learning rate: 0.001
+2026-02-18 01:28:22,486 [INFO] Trainer: Gradient accumulation steps: 2
+2026-02-18 01:28:22,486 [INFO] Trainer: 
+Epoch 1/10
+2026-02-18 01:31:10,114 [INFO] Trainer: Trainer initialized in 'joint' mode
+2026-02-18 01:31:10,115 [INFO] Trainer: Device: mps
+2026-02-18 01:31:10,115 [INFO] Trainer: Monitoring metric: val_acc
+2026-02-18 01:31:10,115 [INFO] Trainer: Starting training...
+2026-02-18 01:31:10,115 [INFO] Trainer: Epochs: 10
+2026-02-18 01:31:10,115 [INFO] Trainer: Batch size: 256
+2026-02-18 01:31:10,115 [INFO] Trainer: Learning rate: 0.001
+2026-02-18 01:31:10,115 [INFO] Trainer: Gradient accumulation steps: 2
+2026-02-18 01:31:10,115 [INFO] Trainer: 
+Epoch 1/10
+2026-02-18 01:34:53,508 [INFO] Trainer: Trainer initialized in 'joint' mode
+2026-02-18 01:34:53,508 [INFO] Trainer: Device: mps
+2026-02-18 01:34:53,508 [INFO] Trainer: Monitoring metric: val_acc
+2026-02-18 01:34:53,508 [INFO] Trainer: Starting training...
+2026-02-18 01:34:53,508 [INFO] Trainer: Epochs: 10
+2026-02-18 01:34:53,508 [INFO] Trainer: Batch size: 256
+2026-02-18 01:34:53,508 [INFO] Trainer: Learning rate: 0.001
+2026-02-18 01:34:53,508 [INFO] Trainer: Gradient accumulation steps: 2
+2026-02-18 01:34:53,508 [INFO] Trainer: 
+Epoch 1/10
+2026-02-18 01:38:13,391 [INFO] Trainer: Train Loss: 10.6094 | Val Loss: 9.6920 | Val Acc: 0.0003 | Top5: 0.0014 | Top10: 0.0030 | LR: 0.001000
+2026-02-18 01:38:13,419 [INFO] Trainer: Saved best checkpoint with val_acc: 0.0003
+2026-02-18 01:38:13,419 [INFO] Trainer: 
+Epoch 2/10
+2026-02-18 01:41:33,386 [INFO] Trainer: Train Loss: 10.5653 | Val Loss: 9.6842 | Val Acc: 0.0003 | Top5: 0.0014 | Top10: 0.0030 | LR: 0.000976
+2026-02-18 01:41:33,389 [INFO] Trainer: 
+Epoch 3/10
+2026-02-18 01:43:06,609 [INFO] Trainer: Trainer initialized in 'joint' mode
+2026-02-18 01:43:06,609 [INFO] Trainer: Device: mps
+2026-02-18 01:43:06,609 [INFO] Trainer: Monitoring metric: val_acc
+2026-02-18 01:43:06,609 [INFO] Trainer: Starting training...
+2026-02-18 01:43:06,609 [INFO] Trainer: Epochs: 10
+2026-02-18 01:43:06,609 [INFO] Trainer: Batch size: 256
+2026-02-18 01:43:06,609 [INFO] Trainer: Learning rate: 0.001
+2026-02-18 01:43:06,609 [INFO] Trainer: Gradient accumulation steps: 2
+2026-02-18 01:43:06,609 [INFO] Trainer: 
+Epoch 1/10
+2026-02-18 01:46:28,905 [INFO] Trainer: Train Loss: 10.6094 | Val Loss: 9.6920 | Val Acc: 0.0003 | Top5: 0.0014 | Top10: 0.0030 | LR: 0.001000 | char: 9.0386 | radical: 0.0251 | structure: 0.7269 | stroke: 2.6491
+2026-02-18 01:46:28,922 [INFO] Trainer: Saved best checkpoint with val_acc: 0.0003
+2026-02-18 01:46:28,922 [INFO] Trainer: 
+Epoch 2/10
+2026-02-18 01:49:58,621 [INFO] Trainer: Train Loss: 10.5653 | Val Loss: 9.6842 | Val Acc: 0.0003 | Top5: 0.0014 | Top10: 0.0030 | LR: 0.000976 | char: 9.0391 | radical: 0.0250 | structure: 0.7134 | stroke: 2.6331
+2026-02-18 01:49:58,624 [INFO] Trainer: 
+Epoch 3/10
+2026-02-18 01:53:21,446 [INFO] Trainer: Train Loss: 10.5694 | Val Loss: 9.6880 | Val Acc: 0.0003 | Top5: 0.0015 | Top10: 0.0030 | LR: 0.000905 | char: 9.0390 | radical: 0.0250 | structure: 0.7199 | stroke: 2.6401
+2026-02-18 01:53:21,456 [INFO] Trainer: 
+Epoch 4/10

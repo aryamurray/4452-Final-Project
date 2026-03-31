@@ -1,0 +1,22 @@
+2026-02-16 02:50:50,442 [INFO] Trainer: Trainer initialized in 'classification' mode
+2026-02-16 02:50:50,442 [INFO] Trainer: Device: cuda
+2026-02-16 02:50:50,443 [INFO] Trainer: Monitoring metric: val_acc
+2026-02-16 02:50:50,443 [INFO] Trainer: Starting training...
+2026-02-16 02:50:50,443 [INFO] Trainer: Epochs: 30
+2026-02-16 02:50:50,443 [INFO] Trainer: Batch size: 256
+2026-02-16 02:50:50,443 [INFO] Trainer: Learning rate: 0.001
+2026-02-16 02:50:50,444 [INFO] Trainer: Gradient accumulation steps: 2
+2026-02-16 02:50:50,445 [INFO] Trainer: 
+Epoch 1/30
+2026-02-16 02:58:49,894 [INFO] Trainer: Train Loss: 6.4078 | Val Loss: 4.7672 | Val Acc: 0.2966 | LR: 0.001000
+2026-02-16 02:58:49,949 [INFO] Trainer: Saved best checkpoint with val_acc: 0.2966
+2026-02-16 02:58:49,949 [INFO] Trainer: 
+Epoch 2/30
+2026-02-16 03:14:15,824 [INFO] Trainer: Train Loss: 4.1817 | Val Loss: 3.5336 | Val Acc: 0.5673 | LR: 0.000997
+2026-02-16 03:14:15,982 [INFO] Trainer: Saved best checkpoint with val_acc: 0.5673
+2026-02-16 03:14:15,982 [INFO] Trainer: 
+Epoch 3/30
+2026-02-16 03:22:03,926 [INFO] Trainer: Train Loss: 3.5047 | Val Loss: 3.1927 | Val Acc: 0.6483 | LR: 0.000989
+2026-02-16 03:22:03,967 [INFO] Trainer: Saved best checkpoint with val_acc: 0.6483
+2026-02-16 03:22:03,968 [INFO] Trainer: 
+Epoch 4/30

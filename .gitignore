@@ -1,0 +1,41 @@
+# Dataset (too large for GitHub)
+data/
+
+# Python virtual environment
+.venv/
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Weights & Biases logs
+wandb/
+
+# Large resource files (>25MB)
+resources/bigram_table.json
+resources/makemeahanzi_graphics.txt
+
+# Generated index/cache files (derived from dataset)
+outputs/**/*.pkl
+outputs/**/*.pt
+outputs/cache/
+outputs/**/tb/
+
+# Model checkpoints
+resources/*.pt
+
+# Misc
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+*.swp
+*.swo

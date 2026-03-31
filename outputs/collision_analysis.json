@@ -1,0 +1,94 @@
+{
+  "num_classes": 3755,
+  "chars_with_radical_info": 3755,
+  "chars_without_radical_info": 0,
+  "unique_signatures": 3739,
+  "collision_groups": 8,
+  "total_colliding_chars": 16,
+  "theoretical_ceiling": 0.9978695073235686,
+  "group_size_distribution": {
+    "2": 8
+  },
+  "top_collision_groups": [
+    {
+      "structure": 1,
+      "strokes": 12,
+      "num_radicals": 3,
+      "characters": [
+        "另",
+        "召"
+      ],
+      "group_size": 2
+    },
+    {
+      "structure": 1,
+      "strokes": 7,
+      "num_radicals": 3,
+      "characters": [
+        "吞",
+        "吴"
+      ],
+      "group_size": 2
+    },
+    {
+      "structure": 1,
+      "strokes": 3,
+      "num_radicals": 2,
+      "characters": [
+        "土",
+        "士"
+      ],
+      "group_size": 2
+    },
+    {
+      "structure": 0,
+      "strokes": 12,
+      "num_radicals": 3,
+      "characters": [
+        "坏",
+        "坞"
+      ],
+      "group_size": 2
+    },
+    {
+      "structure": 0,
+      "strokes": 8,
+      "num_radicals": 3,
+      "characters": [
+        "坦",
+        "旺"
+      ],
+      "group_size": 2
+    },
+    {
+      "structure": 1,
+      "strokes": 19,
+      "num_radicals": 4,
+      "characters": [
+        "芬",
+        "苏"
+      ],
+      "group_size": 2
+    },
+    {
+      "structure": 0,
+      "strokes": 18,
+      "num_radicals": 3,
+      "characters": [
+        "郧",
+        "陨"
+      ],
+      "group_size": 2
+    },
+    {
+      "structure": 0,
+      "strokes": 16,
+      "num_radicals": 2,
+      "characters": [
+        "部",
+        "陪"
+      ],
+      "group_size": 2
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+[project]
+name = "final-project"
+version = "0.1.0"
+description = "Lightweight HCCR with Structural Language Priors"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=2.2.0",
+    "torchvision>=0.17.0",
+    "open-clip-torch>=2.24.0",
+    "numpy>=1.26.0",
+    "Pillow>=10.0.0",
+    "scikit-learn>=1.4.0",
+    "matplotlib>=3.8.0",
+    "tqdm>=4.66.0",
+    "pandas>=2.2.0",
+    "tensorboard>=2.16.0",
+    "setuptools>=70.0.0,<81",
+    "wandb>=0.25.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["hccr"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+find-links = ["https://download.pytorch.org/whl/cu126"]

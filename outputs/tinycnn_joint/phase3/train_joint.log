@@ -1,0 +1,30 @@
+2026-02-18 01:56:40,619 [INFO] Trainer: Trainer initialized in 'joint' mode
+2026-02-18 01:56:40,619 [INFO] Trainer: Device: mps
+2026-02-18 01:56:40,620 [INFO] Trainer: Monitoring metric: val_acc
+2026-02-18 01:56:40,620 [INFO] Trainer: Starting training...
+2026-02-18 01:56:40,620 [INFO] Trainer: Epochs: 5
+2026-02-18 01:56:40,620 [INFO] Trainer: Batch size: 256
+2026-02-18 01:56:40,620 [INFO] Trainer: Learning rate: 0.0001
+2026-02-18 01:56:40,620 [INFO] Trainer: Gradient accumulation steps: 2
+2026-02-18 01:56:40,620 [INFO] Trainer: 
+Epoch 1/5
+2026-02-18 02:02:01,650 [INFO] Trainer: Train Loss: 8.6069 | Val Loss: 7.4997 | Val Acc: 0.0478 | Top5: 0.1439 | Top10: 0.2164 | LR: 0.000100 | char: 7.1574 | radical: 0.0270 | structure: 0.7168 | stroke: 2.6256
+2026-02-18 02:02:02,035 [INFO] Trainer: Saved best checkpoint with val_acc: 0.0478
+2026-02-18 02:02:02,035 [INFO] Trainer: 
+Epoch 2/5
+2026-02-18 02:08:21,514 [INFO] Trainer: Train Loss: 7.5264 | Val Loss: 6.5413 | Val Acc: 0.1945 | Top5: 0.4426 | Top10: 0.5652 | LR: 0.000091 | char: 6.2072 | radical: 0.0264 | structure: 0.6560 | stroke: 2.6056
+2026-02-18 02:08:21,907 [INFO] Trainer: Saved best checkpoint with val_acc: 0.1945
+2026-02-18 02:08:21,908 [INFO] Trainer: 
+Epoch 3/5
+2026-02-18 02:15:15,161 [INFO] Trainer: Train Loss: 6.8968 | Val Loss: 6.0130 | Val Acc: 0.3142 | Top5: 0.6022 | Top10: 0.7126 | LR: 0.000066 | char: 5.6820 | radical: 0.0261 | structure: 0.6357 | stroke: 2.5958
+2026-02-18 02:15:15,611 [INFO] Trainer: Saved best checkpoint with val_acc: 0.3142
+2026-02-18 02:15:15,611 [INFO] Trainer: 
+Epoch 4/5
+2026-02-18 02:22:29,801 [INFO] Trainer: Train Loss: 6.5685 | Val Loss: 5.7821 | Val Acc: 0.3743 | Top5: 0.6612 | Top10: 0.7596 | LR: 0.000035 | char: 5.4522 | radical: 0.0259 | structure: 0.6292 | stroke: 2.5925
+2026-02-18 02:22:30,089 [INFO] Trainer: Saved best checkpoint with val_acc: 0.3743
+2026-02-18 02:22:30,089 [INFO] Trainer: 
+Epoch 5/5
+2026-02-18 02:28:14,204 [INFO] Trainer: Train Loss: 6.4349 | Val Loss: 5.7092 | Val Acc: 0.4000 | Top5: 0.6851 | Top10: 0.7785 | LR: 0.000010 | char: 5.3795 | radical: 0.0259 | structure: 0.6274 | stroke: 2.5911
+2026-02-18 02:28:14,456 [INFO] Trainer: Saved best checkpoint with val_acc: 0.4000
+2026-02-18 02:28:14,459 [INFO] Trainer: Training completed!
+2026-02-18 02:28:14,459 [INFO] Trainer: Best val_acc: 0.4000

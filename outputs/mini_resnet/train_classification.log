@@ -1,0 +1,30 @@
+2026-02-16 21:37:02,011 [INFO] Trainer: Trainer initialized in 'classification' mode
+2026-02-16 21:37:02,011 [INFO] Trainer: Device: cpu
+2026-02-16 21:37:02,011 [INFO] Trainer: Monitoring metric: val_acc
+2026-02-16 21:37:02,011 [INFO] Trainer: Starting training...
+2026-02-16 21:37:02,011 [INFO] Trainer: Epochs: 30
+2026-02-16 21:37:02,011 [INFO] Trainer: Batch size: 256
+2026-02-16 21:37:02,011 [INFO] Trainer: Learning rate: 0.001
+2026-02-16 21:37:02,011 [INFO] Trainer: Gradient accumulation steps: 2
+2026-02-16 21:37:02,012 [INFO] Trainer: 
+Epoch 1/30
+2026-02-16 21:39:19,275 [INFO] Trainer: Trainer initialized in 'classification' mode
+2026-02-16 21:39:19,275 [INFO] Trainer: Device: mps
+2026-02-16 21:39:19,275 [INFO] Trainer: Monitoring metric: val_acc
+2026-02-16 21:39:19,275 [INFO] Trainer: Starting training...
+2026-02-16 21:39:19,275 [INFO] Trainer: Epochs: 30
+2026-02-16 21:39:19,275 [INFO] Trainer: Batch size: 256
+2026-02-16 21:39:19,275 [INFO] Trainer: Learning rate: 0.001
+2026-02-16 21:39:19,275 [INFO] Trainer: Gradient accumulation steps: 2
+2026-02-16 21:39:19,275 [INFO] Trainer: 
+Epoch 1/30
+2026-02-16 21:41:57,505 [INFO] Trainer: Trainer initialized in 'classification' mode
+2026-02-16 21:41:57,505 [INFO] Trainer: Device: mps
+2026-02-16 21:41:57,505 [INFO] Trainer: Monitoring metric: val_acc
+2026-02-16 21:41:57,505 [INFO] Trainer: Starting training...
+2026-02-16 21:41:57,505 [INFO] Trainer: Epochs: 10
+2026-02-16 21:41:57,505 [INFO] Trainer: Batch size: 256
+2026-02-16 21:41:57,505 [INFO] Trainer: Learning rate: 0.001
+2026-02-16 21:41:57,505 [INFO] Trainer: Gradient accumulation steps: 2
+2026-02-16 21:41:57,506 [INFO] Trainer: 
+Epoch 1/10
