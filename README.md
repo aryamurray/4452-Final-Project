@@ -6,14 +6,14 @@ Final project for CS 4452. Explores offline handwritten Chinese character recogn
 
 ## Results Summary
 
-| Model | Val Top-1 | Val Top-5 | Val Top-10 | Params |
-|---|---|---|---|---|
-| TinyCNN 64×64 (baseline) | 85.0% | — | — | 1.4M |
-| TinyCNN 96×96 + CBAM (abandoned) | 68.0%† | — | — | 1.4M |
-| TinyCNN 96×96 + 512-dim + aug | 83.1% | 94.2% | 96.2% | 2.7M |
-| MiniResNetJoint — phase 1 (multi-task) | **95.3%** | 99.1% | 99.5% | ~7.7M |
-| MiniResNetJoint — phase 2 (+ symbolic) | 95.2% | 99.1% | 99.5% | ~7.7M |
-| MiniResNetJoint — phase 3 (reranker) | 94.9% | — | — | ~7.7M |
+| Model | Val Top-1 | Val Top-5 | Val Top-10 | Params | INT-4 size |
+|---|---|---|---|---|---|
+| TinyCNN 64×64 (baseline) | 85.0% | — | — | 1.35M | 0.7 MB |
+| TinyCNN 96×96 + CBAM (abandoned) | 68.0%† | — | — | 1.36M | 0.7 MB |
+| TinyCNN 96×96 + 512-dim + aug | 83.1% | 94.2% | 96.2% | 2.70M | 1.3 MB |
+| MiniResNetJoint — phase 1 (multi-task) | **95.3%** | 99.1% | 99.5% | 2.37M | 1.2 MB |
+| MiniResNetJoint — phase 2 (+ symbolic) | 95.2% | 99.1% | 99.5% | 2.37M | 1.2 MB |
+| MiniResNetJoint — phase 3 (reranker) | 94.9% | — | — | 2.37M | 1.2 MB |
 
 †Killed at epoch 14 due to 256-dim bottleneck with richer input. See `experiments/02_tinycnn_96_cbam_256dim.md`.
 
